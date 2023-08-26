@@ -22,7 +22,7 @@ import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 
 const Main = () => {
-  const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+  const darkPref = window.matchMedia("(prefers-color-scheme: white)");
   const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
     useState(true);
@@ -59,10 +59,10 @@ const Main = () => {
             <Projects />
             <StartupProject />
             <Achievement />
-            <Blogs />
-            <Talks />
-            <Twitter />
-            <Podcast />
+            {/* <Blogs /> */}
+            {/* <Talks /> */}
+            {/* <Twitter />
+            <Podcast /> */}
             <Profile />
             <Footer />
             <ScrollToTopButton />
