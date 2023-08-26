@@ -172,15 +172,15 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer Intern",
-      backimage:require("./assets/images/Exaback.jpeg"),
+      backimage:require("./assets/images/Exaback.png"),
       company: "Exabyte",
-      companylogo: require("./assets/images/EXA2.jpg"),
+      companylogo: require("./assets/images/EXA2.png"),
       date: "Feburary 2023 - April 2023",
       desc: "",
       descBullets: [
         "Developed a scalable Multi-Vendor E-commerce platform with MERN stack, enabling seamless transactions and product management.",
         "Implemented user authentication, shopping cart, payment integration, and real-time updates for enhanced functionality.",
-        "Leveraged modern web technologies (React, Express.js, MongoDB, Node.js) to optimize performance and deliver a seamless"+"  "+" user experience."
+        "Leveraged modern web technologies (React, Express.js, MongoDB, Node.js) to optimize performance and deliver a seamless user experience."
       ]
     }
     // ,
