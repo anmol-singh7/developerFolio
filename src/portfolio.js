@@ -23,10 +23,10 @@ const greeting = {
   username: "Anmol Singh",
   title: "Hi all, I'm Anmol Singh",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Spring boot and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1GTao-Z5HFSk_iskhO1Eyqfs_7j9kr_mR/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1dcBPdWx-tJH2nHQwb1vr2M-TVGXan8BO/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -72,10 +72,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -172,32 +172,44 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer Intern",
+      backimage:require("./assets/images/Bank-rebrands-BNY.webp"),
+      company: "Bank of New York",
+      companylogo: require("./assets/images/New Project.png"),
+      date: "July 2024 - August 2024",
+      desc: "",
+      descBullets: [
+        "Built a robust PDF loading feature, addressing complex and irregular PDF structures effectively.",
+        "Proposed a hybrid solution using Python’s Tabula library for superior PDF data extraction, integrated with Spring Boot for efficient data parsing and processing.",
+        "Designed and integrated a Drool Rule Engine, improving the system’s matching criteria by 9%"
+      ]
+    },
+    {
+      role: "FullStack Developer Intern",
+      backimage:require("./assets/images/zoid_logo.jpeg"),
+      company: "Zoid Technologies",
+      companylogo: require("./assets/images/zoid_logo.jpeg"),
+      date: "October 2023 - April 2024",
+      desc: "",
+      descBullets: [
+        "Designed a Operator Console to manage mission planning, real-time communication, and FOD detection filtering for the Indian Navy’s runway debris detection project, handling over 1,920 images per second.",
+        "Engineered a custom caching system in Node.js, increasing data throughput by 23% and reducing server load by 12% through efficient processing of high-frequency, high-volume data.",
+        "Enhanced real-time data communication efficiency by 19% using Socket.io, ensuring seamless operation across a complex network of AI modules, Node.js servers, and UI components.."
+      ]
+    },
+    {
+      role: "FullStack Developer Intern",
       backimage:require("./assets/images/Exaback.png"),
       company: "Exabyte",
       companylogo: require("./assets/images/EXA2.png"),
       date: "Feburary 2023 - April 2023",
       desc: "",
       descBullets: [
-        "Developed a scalable Multi-Vendor E-commerce platform with MERN stack, enabling seamless transactions and product management.",
-        "Implemented user authentication, shopping cart, payment integration, and real-time updates for enhanced functionality.",
-        "Leveraged modern web technologies (React, Express.js, MongoDB, Node.js) to optimize performance and deliver a seamless user experience."
+        "Successfully designed and developed a robust web application from scratch capable of automating report generation.",
+        "Implemented real-time data synchronization with the ship’s database, enabling automated extraction, analysis, and visualization of critical parameters and engine details.",
+        "Configured AWS server to facilitate maintenance and operation of the application via cloud-based infrastructure."
       ]
     }
-    // ,
-    // {
-    //   role: "Front-End Developer",
-    //   company: "Quora",
-    //   companylogo: require("./assets/images/quoraLogo.png"),
-    //   date: "May 2017 - May 2018",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // },
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Airbnb",
-    //   companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "Jan 2015 - Sep 2015",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // }
+
   ]
 };
 
