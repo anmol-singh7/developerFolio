@@ -21,12 +21,12 @@ const illustration = {
 
 const greeting = {
   username: "Anmol Singh",
-  title: "Hi all, I'm Anmol Singh",
+  title: "Hi all, I'm Anmolpreet Singh",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Spring boot and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Spring boot and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1dcBPdWx-tJH2nHQwb1vr2M-TVGXan8BO/view?usp=sharing", // Set to empty to hide the button
+  "https://drive.google.com/file/d/1oZRjbRF_YsFU_BfA8H-6gUe9atL4pyv0/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/anmol-singh7",
   linkedin: "https://www.linkedin.com/in/anmol-singh-19b072232/",
-  gmail: "thindanmol173@gmail.com",
+  gmail: "singhanmol0984@gmail.com",
   gitlab: "",
   facebook: "",
   medium: "",
@@ -129,7 +129,7 @@ const educationInfo = {
       schoolName: "Delhi Technological University",
       logo: require("./assets/images/DTUlogo.png"),
       subHeader: "B Tech in Computer Engineering",
-      duration: "December 2021 - Present",
+      duration: "December 2021 - May 2025",
       desc: "",
       descBullets: [ ]
     },
@@ -188,7 +188,7 @@ const workExperiences = {
       backimage:require("./assets/images/zoid_logo.jpeg"),
       company: "Zoid Technologies",
       companylogo: require("./assets/images/zoid_logo.jpeg"),
-      date: "October 2023 - April 2024",
+      date: "September 2023 - May 2024",
       desc: "",
       descBullets: [
         "Designed a Operator Console to manage mission planning, real-time communication, and FOD detection filtering for the Indian Navy’s runway debris detection project, handling over 1,920 images per second.",
